@@ -1972,4 +1972,8 @@
             <argument name="defaultPageSize" xsi:type="number">20</argument>
         </arguments>
     </type>
+    <preference for="Magento\Elasticsearch\SearchAdapter\Query\Builder\MatchQuery" type="Pontorez\Elasticsearch\SearchAdapter\Query\Builder\MatchQuery" /><!-- TODO add description -->
+    <preference for="Magento\Elasticsearch\Elasticsearch5\SearchAdapter\Mapper" type="Pontorez\Elasticsearch\Elasticsearch5\SearchAdapter\Mapper" /><!-- TODO add description -->
+    <preference for="Magento\Elasticsearch7\SearchAdapter\Mapper" type="Pontorez\Elasticsearch7\SearchAdapter\Mapper" /><!-- TODO add description -->
+    <preference for="Magento\Elasticsearch7\SearchAdapter\Adapter" type="Pontorez\Elasticsearch7\SearchAdapter\Adapter" /><!-- TODO add description -->
 </config>
