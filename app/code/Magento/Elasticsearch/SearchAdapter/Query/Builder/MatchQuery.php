@@ -93,6 +93,7 @@ class MatchQuery implements QueryInterface
             $selectQuery['bool'][$query['condition']][] = $queryBody;
         }
 
+        \Pontorez\Helper::fixQueryForAjaxSuggestions($selectQuery, $queryValue);
         return $selectQuery;
     }
 
